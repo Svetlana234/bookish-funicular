@@ -1,6 +1,7 @@
 //Создать пустой проект в IntelliJ IDEA, создать класс HomeWorkApp, и прописать в нем метод main().
 
 public class HomeWorkApp {
+
     public static void main(String[] args) {
         printThreeWords();
         checkSumSign();
@@ -10,8 +11,6 @@ public class HomeWorkApp {
     }
     //Создайте метод printThreeWords(),
     // который при вызове должен отпечатать в столбец три слова: Orange, Banana, Apple.
-
-
     public static void printThreeWords() {
         System.out.println("Orange");
         System.out.println("Banana");
@@ -21,9 +20,7 @@ public class HomeWorkApp {
 // и инициализируйте их любыми значениями, которыми захотите. Далее метод должен
 // просуммировать эти переменные, и если их сумма больше или равна 0, то вывести
 // в консоль сообщение “Сумма положительная”, в противном случае - “Сумма отрицательная”;
-
     public static void checkSumSign() {
-
         int a = 0;
         int b = 0;
         int c = a + b;
@@ -39,7 +36,6 @@ public class HomeWorkApp {
     // то в консоль метод должен вывести сообщение “Красный”, если лежит в пределах от
     // 0 (0 исключительно) до 100 (100 включительно),
     // то “Желтый”, если больше 100 (100 исключительно) - “Зеленый”
-
     public static void printColor() {
 
         int value = 5;
@@ -59,7 +55,6 @@ public class HomeWorkApp {
 // которыми захотите. Если a больше или равно b,
 // то необходимо вывести в консоль
 // сообщение “a >= b”, в противном случае “a < b”
-
     public static void compareNumbers() {
         int a = 1;
         int b = 2;
