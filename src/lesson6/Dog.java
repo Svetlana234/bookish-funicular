@@ -1,7 +1,11 @@
+package lesson6;
+
+import lesson6.Animal;
+
 /**
  * Собака
  */
-public class Dog  extends Animal{
+public class Dog  extends Animal {
 
     public Dog(String name) {
         super(name);
